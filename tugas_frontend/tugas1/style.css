@@ -1,0 +1,79 @@
+body {
+  background-color: #f2ebe3;
+}
+div.latihan1 {
+  width: 50%;
+  transform: translateX(60%);
+  display: block;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+div.latihan1 img {
+  width: 30%;
+  height: 40%;
+  float: left;
+  border-radius: 6px 0 0 6px;
+}
+
+div.name {
+  margin: 225px;
+  padding: 12px;
+  background-color: #fff;
+  width: 30%;
+  height: 10%;
+  border-radius: 0 6px 6px 0;
+}
+div.price {
+  display: flex;
+}
+
+div.price h4 {
+  color: #328067;
+  transform: translateX(8px);
+  font-size: 15px;
+}
+
+div.name p {
+  font-size: 14px;
+  color: #6c7289;
+  font-family: "Montserrat", sans-serif;
+  transform: translateX(5px);
+}
+.coret {
+  text-decoration: line-through;
+  margin-left: 20px;
+  color: #6c7289;
+}
+.desc {
+  max-width: 120px;
+}
+div.desc h4 {
+  color: #328067;
+  transform: translateX(8px);
+}
+div.desc h6 {
+  color: #1c232b;
+  font-family: "Fraunces", serif;
+  transform: translateX(8px);
+}
+.icon {
+  width: 5px;
+  height: 5px;
+}
+.button {
+  background-color: #3c8067;
+  color: #fff;
+  padding: 5px;
+  margin: auto;
+  transform: translateX(62px);
+  border-radius: 6px;
+}
+
+/*Responsive  1440px */
+@media only screen and (max-width: 1440px) {
+}
+
+/* Responsive 375px */
+@media only screen and (max-width: 375px) {
+}
